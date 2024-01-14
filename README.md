@@ -9,6 +9,7 @@ Basic structure of the page
 ![imagen_2024-01-12_232059531](https://github.com/Whisp3r16/Minecraft-Memory-Game/assets/150966142/2b1d7393-bdfe-4254-8801-3cddfbfb8de8)
 script flowchart
 
+the images used in this app are available in: https://www.dropbox.com/scl/fo/4rjytz3vkw05u9luh27mn/h?rlkey=0wxbbxy2g71fbsa9rovitvaua&dl=0
 Actualy i have some problems with the code, the first is to many lines in the js script  and i need a more eficient way to implement the logic used ,the second is when two items cards are paired, the images are changed correctly but i wish implment a function when pairing a pair of images teh click function in the page stop working but when i try to add this the click function stop working just in the moment whoa pair of item cards are matched instead match all the cards.
 
 once this details have been corrected will be implemented a system of points and somehow save this data and create a highest scores table conceted a database.            
