@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(Fuentes/Minecrafter.Reg.ttf) format('truetype');
+}
+
+body{
+    transform: scale(0.3);
+    background-color: aqua;
+    background-image:url(mediaFiles/DirtBackground.webp) ;
+}
+
+.borderTableBlack{
+    position: absolute;
+    top: 5cm;
+    left: 0;
+    width:1740px;
+    height:1740px;
+    background-color:rgb(239, 239, 235);
+    border: 3cm solid black;
+    /*padding-top:-1000cm; /*arriba, derecha, abajo, izquierda */ 
+}
+
+#title0{
+    width: 968px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Minecraft',sans-serif;
+    padding-top:-100cm;
+  
+    
+}
+.borderTableBrown{
+    justify-content: center;
+    align-content: center;
+    width: 1367px;
+    height:1367px;
+    background-color:rgb(161, 61, 93);
+    border: 5cm  solid  rgb(159, 107, 59)
+}
+
+.internalContainer{
+    justify-content:center;
+    align-content: center;
+    width:1387px;;
+    height:1350px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);/*creacion de columnas iguales*/
+    grid-gap: 20px;
+    background-color:rgb(98, 65, 41);
+    padding-top:0.5cm ;
+    
+}
+.carta{
+    width: 360px;
+    height: 360px; 
+    border:1cm solid ; 
+    background-color:rgb(174, 130, 77);
+    padding: 0.5cm;
+    cursor: pointer;
+    
+}
+
